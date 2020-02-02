@@ -6,7 +6,7 @@
     "minimum-stability": "dev",
     "authors": [
         {
-            "name": "xhat",
+            "name": "jashok2",
             "email": "andy@popfeng.com"
         }
     ],
@@ -16,16 +16,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Xhat\\Payjs\\": "src/"
+            "Jashok2\\Payjs\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Xhat\\Payjs\\PayjsServiceProvider"
+                "Jashok2\\Payjs\\PayjsServiceProvider"
             ],
             "aliases": {
-                "Payjs": "Xhat\\Payjs\\Facades\\Payjs"
+                "Payjs": "Jashok2\\Payjs\\Facades\\Payjs"
             }
         }
     }
