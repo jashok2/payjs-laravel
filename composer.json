@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Jashok2\\Payjs\\": "src/"
+            "Xhat\\Payjs\\": "src/"
         }
     },
     "extra": {
