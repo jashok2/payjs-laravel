@@ -6,7 +6,7 @@
     "minimum-stability": "dev",
     "authors": [
         {
-            "name": "jashok2",
+            "name": "xhat",
             "email": "andy@popfeng.com"
         }
     ],
@@ -22,10 +22,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Jashok2\\Payjs\\PayjsServiceProvider"
+                "Xhat\\Payjs\\PayjsServiceProvider"
             ],
             "aliases": {
-                "Payjs": "Jashok2\\Payjs\\Facades\\Payjs"
+                "Payjs": "Xhat\\Payjs\\Facades\\Payjs"
             }
         }
     }
